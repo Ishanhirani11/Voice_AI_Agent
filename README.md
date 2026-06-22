@@ -169,9 +169,9 @@ README.md
 ## Clone Repository
 
 ```bash
-git clone <repository_url>
+git clone https://github.com/Ishanhirani11/Voice_AI_Agent.git
 
-cd voice-ai-agent
+cd Voice_AI_Agent
 ```
 
 ---
@@ -385,7 +385,3 @@ GET /health
 # Author
 
 Ishan Hirani
-
-B.Tech Artificial Intelligence & Data Science
-
-Government Engineering College, Rajkot
