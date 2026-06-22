@@ -54,6 +54,9 @@ User: "My name is John and my number is 9876543210"
 User: "What slots are available?"
 {"intent": "fetch_slots", "name": null, "phone": null, "date": null, "time": null, "old_date": null, "old_time": null, "new_date": null, "new_time": null, "response": "Let me check the available slots for you."}
 
+User: "Book it for tomorrow at 10 AM"
+{"intent": "book_appointment", "name": "John", "phone": "9876543210", "date": "2026-06-27", "time": "10:00 AM", "old_date": null, "old_time": null, "new_date": null, "new_time": null, "response": "I am booking your appointment for tomorrow at 10 AM."}
+
 User: "Goodbye"
 {"intent": "end_conversation", "name": null, "phone": null, "date": null, "time": null, "old_date": null, "old_time": null, "new_date": null, "new_time": null, "response": "Thank you for visiting! Have a great day. Take care!"}
 """
