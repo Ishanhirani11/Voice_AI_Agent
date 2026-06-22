@@ -43,3 +43,4 @@ recordings/
 # Database cache
 
 *.sqlite3
+*.db
