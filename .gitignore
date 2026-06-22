@@ -1,0 +1,45 @@
+# Python
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+
+venv/
+
+# Environment variables
+
+.env
+
+# Audio files
+
+response.mp3
+response.mp4
+input.wav
+
+# Logs
+
+backend/logs/
+
+# Recordings
+
+recordings/
+
+# IDE
+
+.vscode/
+.idea/
+
+# OS
+
+.DS_Store
+
+# Streamlit
+
+.streamlit/
+
+# Database cache
+
+*.sqlite3
