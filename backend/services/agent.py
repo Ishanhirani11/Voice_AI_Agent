@@ -157,7 +157,7 @@ def process_query(session_id: str, user_message: str) -> dict:
                     msg = f"{msg}\n\nYour appointments:\n" + "\n".join(appt_lines)
 
         else:
-            msg = response_text or result.get("message", "Sorry, something went wrong.")
+            msg = result.get("message", "Sorry, something went wrong.")
 
         add_message(session_id, "assistant", msg)
 
